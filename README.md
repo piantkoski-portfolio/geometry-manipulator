@@ -1,21 +1,36 @@
-> This a work in progress, so this document should receive many updates in the next weeks (maybe months).
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-# Geometry manipulator
+## Getting Started
 
-Geometry manipulator is a software to manipulate geometries in the browser. The purpose of it is to teach its owner how to handle CAD software problems in a web application.
+First, run the development server:
 
-## Main features
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- add new geometry item by clicking a button
-- select the correct geometry in the scene
-- attach new geometries to a specific point in the canvas
-- manipulate geometry items (morph, add material, smooth, remove material)
-- export/import data as JSON
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## How should I get there?
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-By creating a React application and using managers, commands to handle tools and mesh selection, click events, and everything else that makes it work.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-### Why managers and commands pattern?
+## Learn More
 
-To be honest, I don't know. This is how it's solved in an application I've been selected to work on. I didn't participate on decision making, so here I'm gonna model the same patterns and architecture used there with only one purpose, **learn and get used to it**.
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
