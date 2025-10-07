@@ -2,7 +2,7 @@
 
 # Geometry manipulator
 
-Geometry manipulator is a software to manipulate geometries in the browser. The purpose of it is to teach its owner how to handle CAD software problems in a web application.
+Geometry manipulator is a software to manipulate geometries in the browser. The purpose of it is to learn how to handle CAD software problems in a web application.
 
 ## Main features
 
